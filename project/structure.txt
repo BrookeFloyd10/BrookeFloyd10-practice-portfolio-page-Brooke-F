@@ -1,0 +1,88 @@
+
+
+title Portfolio
+
+
+body: 
+
+header: name
+tagline
+Partner| Parent| Developer in progress| Retired infant|
+Partner, Parent, Aspiring Software Developer, Former Infant.
+
+
+
+paragraph: 
+About me: 
+Include paragraph about self
+
+
+:::::Table requirements:::::
+use appropriate tables
+tables <th>
+rows <tr>
+cells <td>
+
+
+body aside ?
+skills table 
+
+
+:::::Forms requirements:::::
+
+allows visitors to send a message
+include field for visitors info
+name, emailaddress, and a messae
+
+create form with labels input fields a submit button
+use  type="text" for the name field.
+○ type="email" for the email field.
+○ <textarea> for the message field.
+
+
+other tags <h1>, <p>, <ul>, or <img>, 
+
+
+::::::::::Examples from Lesson to refrence::::::::::
+
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>My Portfolio</title>
+ </head>
+ <body>
+     <header>
+         <h1>Welcome to My Portfolio</h1>
+         <nav>
+             <a href="#about">About</a>
+             <a href="#projects">Projects</a>
+             <a href="#contact">Contact</a>
+         </nav>
+     </header>
+     <main>
+         <section id="about">
+             <h2>About Me</h2>
+             <p>Hi, I'm a web developer with a passion for creating beautiful, functional websites.</p
+         </section>
+         <section id="projects">
+             <h2>My Projects</h2>
+             <article>
+                 <h3>Project 1: E-commerce Site</h3>
+                 <p>A responsive online store built with HTML, CSS, and JavaScript.</p>
+             </article>
+         </section>
+     </main>
+     <footer>
+           <p>&copy; 2025 My Portfolio</p>
+    </footer>
+ </body>
+</html>
+
+::::List with bulletpoints: 
+<h1>About Me</h1>
+<p>Hello, world! This is my first webpage.</p>
+<ul>
+   <li>Learn HTML</li>
+   <li>Practice CSS</li>
+   <li>Master JavaScript</li>
+</ul>

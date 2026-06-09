@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1> Brooke Floyd </h1>
+        <h2>Partner. Parent. Developer in progress. Retired infant.</h2>
+    </header>
+    <main> 
+        <section id="about-me"> 
+            <h3>Get to know Me: </h3>
+            
+            <p> Hi, I'm Brooke. I'm a folk musician, cosmetologist, and aspiring software developer. 
+                By day I'm learning software development, and by night I'm… also usually learning 
+                software development, with occasional breaks for music, family, and pet-related 
+                responsibilities. <br> I still work behind the chair, so my career has evolved from fixing 
+                bad bangs to debugging JavaScript. Turns out both require patience, creativity, and staying 
+                calm when something unexpectedly breaks.
+            <br>I live in KC with my husband, son, a dog named Skittles, and a cat named Harriet. 
+                I'm passionate about learning new things, building useful projects, and embracing 
+                the challenge of starting a new career path. Right now, that journey involves JavaScript,
+                plenty of curiosity, and more browser tabs than I'd care to count.</p>    
+
+        </section>
+
+
+        <section id="skills"> 
+          <h4> My Skills </h4> 
+          <table border="4"> 
+            <tr>
+              <th>Skill</th>
+              <th>Description</th>
+              <th>Proficiency</th>
+            </tr>
+
+            <tr>
+              <td>JavaScript</td>
+              <td>Core focus of my current development learning. I use it to build interactive web projects and strengthen my understanding of web development concepts.</td>
+              <td>Intermediate (Learning more by the day)</td>
+            </tr>
+
+            <tr>
+              <td>Python</td>
+              <td>Used for scripting and practice projects to strengthen programming fundamentals like logic, data structures, and problem solving.</td>
+              <td>Intermediate (Learning)</td>
+            </tr>
+
+            <tr>
+              <td>Communication & Collaboration</td>
+              <td>Experienced working with clients and collaborating in team environments. Strong ability to listen, explain ideas clearly, and adapt communication style based on audience and context.</td>
+              <td>Advanced (Transferable)</td>
+            </tr>
+
+            <tr>
+              <td>Creativity & Performance</td>
+              <td>Background in folk music and juggling, building timing, focus, adaptability, and comfort performing under pressure.</td>
+              <td>Advanced (Real Life / Transferable)</td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="contact-form"> 
+          <h5> Get In Touch </h5>
+          <form action="/submit" method="POST">
+            <fieldset>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name">
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email">
+            </fieldset>  
+
+            <fieldset>
+              <label for="contact-message">Message:</label>
+              <textarea 
+                id="contact-message"  
+                name="message"
+                rows="5"
+                cols="50"
+                placeholder="Create message here"
+                required></textarea>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+            
+        <aside> 
+        </aside>
+
+    </main>
+    <footer>
+        <p>&copy: 2026 BrookeFloyd inc.</p>
+    </footer>
+</body>
+</html>
