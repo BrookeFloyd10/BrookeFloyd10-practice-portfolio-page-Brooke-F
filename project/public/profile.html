@@ -7,54 +7,61 @@
 </head>
 <body>
     <header>
-        <h1> Brooke Floyd </h1>
-        <h2>Partner. Parent. Developer in progress. Retired infant.</h2>
+        <h1>Brooke Floyd</h1>
+        <p>Partner. Parent. Developer in progress. Retired infant.</p>
     </header>
+
+
+
+
+
     <main> 
         <section id="about-me"> 
-            <h3>Get to know Me: </h3>
-            
-            <p> Hi, I'm Brooke. I'm a folk musician, cosmetologist, and aspiring software developer. 
-                By day I'm learning software development, and by night I'm… also usually learning 
-                software development, with occasional breaks for music, family, and pet-related 
-                responsibilities. <br> I still work behind the chair, so my career has evolved from fixing 
-                bad bangs to debugging JavaScript. Turns out both require patience, creativity, and staying 
-                calm when something unexpectedly breaks.
-            <br>I live in KC with my husband, son, a dog named Skittles, and a cat named Harriet. 
-                I'm passionate about learning new things, building useful projects, and embracing 
-                the challenge of starting a new career path. Right now, that journey involves JavaScript,
+            <h2>Get to Know Me</h2>
+             <p>Hi, I'm Brooke. I live in Kansas City with my husband, our son, a dog named Skittles, 
+                and a cat named Harriet. After 15 years as a cosmetologist, I have added software 
+                development to my skill set and daily life.</p>
+             <p>By day, I'm learning to code. By night, I'm... also usually learning to code, but with 
+                occasional breaks for music, family, and pet-related responsibilities. I still work behind 
+                the chair, so my career has evolved from fixing bad bangs to fixing bad bugs in JavaScript. 
+                Turns out both require patience, creativity, and the ability to stay calm when something 
+                unexpectedly breaks.</p>
+             <p>I'm passionate about learning new things, building useful projects, and embracing the 
+                challenge of starting a new career path. Right now, that journey involves JavaScript, 
                 plenty of curiosity, and more browser tabs than I'd care to count.</p>    
 
-        </section>
+                <h3>Fun Facts</h3>
+                <ul>
+                    <li>I sing in a folk band</li>
+                    <li>I recently achieved a childhood goal and learned how to juggle</li>
+                    <li>I love a DIY home renovation project! I have tackled everything from structural changes to full room and bathroom remodels</li>
+                    <li>I have a green thumb… but only for plants. Flowers and I are not on speaking terms</li>                </ul>
+            </section> 
 
 
         <section id="skills"> 
-          <h4> My Skills </h4> 
-          <table border="4"> 
+          <h2>My Skills</h2> 
+          <table border="1"> 
             <tr>
               <th>Skill</th>
               <th>Description</th>
               <th>Proficiency</th>
             </tr>
-
             <tr>
               <td>JavaScript</td>
               <td>Core focus of my current development learning. I use it to build interactive web projects and strengthen my understanding of web development concepts.</td>
               <td>Intermediate (Learning more by the day)</td>
             </tr>
-
             <tr>
               <td>Python</td>
               <td>Used for scripting and practice projects to strengthen programming fundamentals like logic, data structures, and problem solving.</td>
               <td>Intermediate (Learning)</td>
             </tr>
-
             <tr>
               <td>Communication & Collaboration</td>
               <td>Experienced working with clients and collaborating in team environments. Strong ability to listen, explain ideas clearly, and adapt communication style based on audience and context.</td>
               <td>Advanced (Transferable)</td>
             </tr>
-
             <tr>
               <td>Creativity & Performance</td>
               <td>Background in folk music and juggling, building timing, focus, adaptability, and comfort performing under pressure.</td>
@@ -64,14 +71,14 @@
         </section>
 
         <section id="contact-form"> 
-          <h5> Get In Touch </h5>
+          <h2>Get In Touch</h2>
           <form action="/submit" method="POST">
             <fieldset>
               <label for="name">Name:</label>
-              <input type="text" id="name" name="name">
+              <input type="text" id="name" name="name" required>
 
               <label for="email">Email:</label>
-              <input type="email" id="email" name="email">
+              <input type="email" id="email" name="email" required>
             </fieldset>  
 
             <fieldset>
@@ -81,7 +88,7 @@
                 name="message"
                 rows="5"
                 cols="50"
-                placeholder="Create message here"
+                placeholder="Write your message here"
                 required></textarea>
             </fieldset>
 
@@ -89,12 +96,12 @@
           </form>
         </section>
             
-        <aside> 
-        </aside>
+          <!-- future: sidebar content -->
+          <!-- <aside></aside> -->
 
     </main>
     <footer>
-        <p>&copy: 2026 BrookeFloyd inc.</p>
+        <p>&copy; 2026 BrookeFloyd inc.</p>
     </footer>
 </body>
 </html>
