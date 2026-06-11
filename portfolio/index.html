@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
 <body>
     <header>
+        <img src="images/codingIconToUse.png" width="210" alt="line Coding Icon" />
+      <div id="header-text">
         <h1>Brooke Floyd</h1>
         <p>Partner. Parent. Developer in progress. Retired infant.</p>
+      </div> 
     </header>
 
-
-
-
-
     <main> 
-        <section id="about-me"> 
+        <div>
+        <section>
             <h2>Get to Know Me</h2>
              <p>Hi, I'm Brooke. I live in Kansas City with my husband, our son, a dog named Skittles, 
                 and a cat named Harriet. After 15 years as a cosmetologist, I have added software 
@@ -28,48 +29,43 @@
                 unexpectedly breaks.</p>
              <p>I'm passionate about learning new things, building useful projects, and embracing the 
                 challenge of starting a new career path. Right now, that journey involves JavaScript, 
-                plenty of curiosity, and more browser tabs than I'd care to count.</p>    
-
-                <h3>Fun Facts</h3>
-                <ul>
-                    <li>I sing in a folk band</li>
-                    <li>I recently achieved a childhood goal and learned how to juggle</li>
-                    <li>I love a DIY home renovation project! I have tackled everything from structural changes to full room and bathroom remodels</li>
-                    <li>I have a green thumb… but only for plants. Flowers and I are not on speaking terms</li>
-                </ul>
+                plenty of curiosity, and more browser tabs than I'd care to count.</p>     
         </section> 
-
 
         <section id="skills"> 
           <h2>My Skills</h2> 
-          <table border="1"> 
-            <tr>
-              <th>Skill</th>
-              <th>Description</th>
-              <th>Proficiency</th>
-            </tr>
-            <tr>
-              <td>JavaScript</td>
-              <td>Core focus of my current development learning. I use it to build interactive web projects and strengthen my understanding of web development concepts.</td>
-              <td>Intermediate (Learning more by the day)</td>
-            </tr>
-            <tr>
-              <td>Python</td>
-              <td>Used for scripting and practice projects to strengthen programming fundamentals like logic, data structures, and problem solving.</td>
-              <td>Intermediate (Learning)</td>
-            </tr>
-            <tr>
-              <td>Communication & Collaboration</td>
-              <td>Experienced working with clients and collaborating in team environments. Strong ability to listen, explain ideas clearly, and adapt communication style based on audience and context.</td>
-              <td>Advanced (Transferable)</td>
-            </tr>
-            <tr>
-              <td>Creativity & Performance</td>
-              <td>Background in folk music and juggling, building timing, focus, adaptability, and comfort performing under pressure.</td>
-              <td>Advanced (Real Life / Transferable)</td>
-            </tr>
-          </table>
-        </section>
+          <table> 
+              <thead>
+                <tr>
+                  <th>Skill</th>
+                  <th>Description</th>
+                  <th>Proficiency</th>
+                </tr>
+              </thead>  
+              <tbody>
+                <tr>
+                  <td>JavaScript</td>
+                  <td>Core focus of my current development learning. I use it to build interactive web projects and strengthen my understanding of web development concepts.</td>
+                  <td>Intermediate (Learning more by the day)</td>
+                </tr>
+                <tr>
+                  <td>Python</td>
+                  <td>Used for scripting and practice projects to strengthen programming fundamentals like logic, data structures, and problem solving.</td>
+                  <td>Intermediate (Learning)</td>
+                </tr>
+                <tr>
+                 <td>Communication & Collaboration</td>
+                 <td>Experienced working with clients and collaborating in team environments. Strong ability to listen, explain ideas clearly, and adapt communication style based on audience and context.</td>
+                 <td>Advanced (Transferable)</td>
+                </tr>
+                <tr>
+                  <td>Creativity & Performance</td>
+                  <td>Background in folk music and juggling, building timing, focus, adaptability, and comfort performing under pressure.</td>
+                  <td>Advanced (Real Life / Transferable)</td>
+                </tr>
+        </tbody>
+        </table>
+      </section>
 
         <section id="contact-form"> 
           <h2>Get In Touch</h2>
@@ -93,11 +89,23 @@
             <button type="submit">Submit</button>
           </form>
         </section>
-            
-          <!-- future: sidebar content -->
-          <!-- <aside></aside> -->
+      </div>
 
+      <aside>
+          <img src="images/Brooke.jpg" width="100%" alt="A photo of me" class="profile-photo" />
+
+          <a href="https://github.com/BrookeFloyd10?tab=repositories" title="click to visit" target="_blank" rel="noopener noreferrer">
+            <img src="images/GitHub_Invertocat_Black.png" width="130" alt="Github Logo link to my repos"/> </a>
+
+            <h2>Fun Facts</h2>
+            <ul>
+              <li id="fun-fact"></li>
+            </ul>
+
+          
+      </aside>
     </main>
+    <script src="js/script.js"></script>
     <footer>
         <p>&copy; 2026 BrookeFloyd inc.</p>
     </footer>
