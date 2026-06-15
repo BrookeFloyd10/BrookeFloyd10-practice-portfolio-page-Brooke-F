@@ -7,7 +7,8 @@
 
 body { 
   background-color: #AD9BAA; 
-  max-width: 1500px; 
+  max-width: 1200px; 
+  margin: 0 auto;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
@@ -17,10 +18,12 @@ header {
   align-items: stretch; 
   justify-content: center;
   background-color: #4B88A2; 
-  height: 20vh; 
+  border-radius: 12px 12px 12px 0px;;
+  height: 18vh; 
   max-height: 20vh;
   border: 3px solid #3b3561; 
   padding-top: 1em;
+  margin: 1em 1em 0 1em;
 
 }
 
@@ -34,14 +37,14 @@ header {
 
 
 .header-text { 
-  padding: 1em 3em; 
+  padding: 2em 2em; 
   text-align: center;
   color: #3b3561bb; 
-  font-size: 1.5em;
+  font-size: 1.1em;
 }
 
 
-h2, h3, h4, p, img { 
+h2, h3, h4, p { 
   margin-bottom: 1em; 
   color: #e8dce6;
 }
@@ -57,7 +60,9 @@ main {
   min-height: calc(100vh - 130px); 
   display: flex; 
   flex-direction: row-reverse;
-  align-items: stretch; 
+  align-items: flex-start; 
+  padding: 0 0 1em 0;
+  gap: 1em;
 }
 
 
@@ -75,10 +80,11 @@ main {
 .skills-card, 
 .form-card,
 #base-photo { 
-  border-radius: 40px; 
-  padding: 4%; 
-  margin: 2%;
+  border-radius: 20px; 
+  padding: 1% 1.2%; 
+  margin: 2% auto;
   border: 4px solid; 
+  width: 80%
 
 }
 
@@ -101,14 +107,10 @@ main {
 }
 
 
-.skills-card { 
-  text-align: center; 
-  color: #e8dce6;
-}
-
-
 table {
   border-collapse: collapse;
+  text-align: center; 
+  color: #e8dce6;
 }
 
 
@@ -175,13 +177,14 @@ aside {
   display: flex; 
   flex-direction: column; 
   width: 18%; 
-  justify-content: center;
   color: #e8dce6; 
   background-color: #4B88A2; 
   border: 3px solid #3b3561; 
   border-top: none; 
-  padding: 1.5rem 1rem 2em;
-  gap: 2.5em;
+  border-radius: 0 0 12px 12px;
+  padding: 2rem 1rem 2em 1em;
+  gap: 3.5em;
+  margin: 0 0 1em 1em;
 }
 
 
@@ -196,17 +199,16 @@ aside {
   justify-content: center;
   border-radius: 12px; 
   border: 3px solid; 
-  padding: 1.3rem; 
-  padding-left: 0.5rem;
+  padding: 1.3rem 1.3rem 1.3rem 0.5rem;
   width: 100%; 
-  font-size: 1.5vw;
+  font-size: 1vw;
   text-align: center;
 }
 
 
 .sidebar-card .card-heading {
   margin-bottom: 0.5rem;
-  font-size: 2vw;
+  font-size: 1.2vw;
   
 }
 
@@ -236,7 +238,7 @@ aside {
   display:flex;
   flex-direction: column;
   align-items: center;
-  min-height: 70vh ;
+  height: 50vh ;
 }
 
 
@@ -271,10 +273,16 @@ footer {
   display: flex;
   justify-content: space-between;
   color:#2d5464;
-  padding: 2vw;
+  padding: 0 2vw 2vw 2vw;
+  margin-top: 0;
   width: 100%; 
 }
 
+#base-photo {
+  display: block;
+  margin: 2% auto;
+  border: none;
+}
 
 
 
