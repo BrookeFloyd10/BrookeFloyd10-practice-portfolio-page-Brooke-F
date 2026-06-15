@@ -20,7 +20,7 @@ let funFactsArr = [
   "I have a green thumb… but only for plants. Flowers and I are not on speaking terms.",
 
   "<p>Meet Skittles!</p><br>" +
-  "<img src='images/skits.jpg' width='100%' alt='My dog sitting in the driver seat of my car.'/><br>" +
+  "<img src='images/skits.jpg' width='100%' max-heigth='95%' alt='My dog sitting in the driver seat of my car.'/><br>" +
   "<p>My son named him after his favorite candy.</p>",
 
   "I can still pull off the classic “worm” from the breakdancing era.",
@@ -41,4 +41,4 @@ function cycleFactsArr(array) {
     }
 cycleFactsArr(funFactsArr)
 setInterval (( ) => {
-cycleFactsArr(funFactsArr)}, 10000);
+cycleFactsArr(funFactsArr)}, 7000);
